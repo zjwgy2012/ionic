@@ -1,0 +1,38 @@
+/*
+ * Main navigation
+ * 修改 '.navbar'
+ */
+.sanguo-nav {
+    text-shadow: 0 -1px 0 rgba(0,0,0,.15);
+    background-color: #1fa67a;
+    border-color: #1b926c;
+    box-shadow: 0 -1px 0 rgba(255,255,255,.1);
+}
+.sanguo-nav .navbar-brand {
+    color: #fff;
+}
+.sanguo-nav .navbar-nav > li > a {
+    color: #eeeddd;
+}
+.sanguo-nav .navbar-nav > li > a:hover {
+    color: #fff;
+}
+.sanguo-nav .navbar-nav > .active > a,
+.sanguo-nav .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: #463265;
+}
+.sanguo-nav .navbar-toggle {
+    border-color: #563d7c;
+    }
+.sanguo-nav .navbar-toggle:hover {
+    background-color: #463265;
+    border-color: #463265;
+}
+
+/* 
+ * side padding builds on .container 15px, so 30px 
+ */
+.sanguo-container {
+    padding: 55px 15px 40px;
+}
